@@ -18,11 +18,12 @@ hero:
       link: /test
 
 features:
-  - title: Services 🎉
+  - title: 🎉 Services
     details: 青衿之志，臻于至善
-  - title: Studies 🎉
+    link: /markdown-examples.md
+  - title: 🎊 Studies
     details: 心藏须弥，博观约取
-  - title: Develops 🎉
+  - title: 🛰 Develops
     details: 景行行止，功不唐捐
 ---
 
