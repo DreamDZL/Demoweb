@@ -4,15 +4,27 @@ import { defineConfig } from 'vitepress'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   base: "/Demoweb/",
-  head: [["link", { rel: "icon", href: "/life.png" }]],
+  head: [["link", { rel: 'icon', href: '/logo.png' }]],
   title: "NATUS-VINCERE",
   description: "天生赢家",
+  appearance:'dark', 
   
+  markdown: {
+    image: {
+      // 开启图片懒加载
+      lazyLoading: true
+    },
+  },
+
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     logo: '/logo.png',
-    outlineTitle: "文章目录",
-    outline:[2,6],
+    darkModeSwitchLabel: '深浅模式', 
+
+    outline: {
+      level: [2, 4],
+      label: '当前页大纲',
+    },
 
     search: {
       provider: "local",
@@ -56,21 +68,13 @@ export default defineConfig({
       ] }
     ],
 
-    sidebar: false,
-    aside:"left",
-
-
+    aside:'left',
+      
     socialLinks: [
       { icon: 'github', link: 'https://github.com/DreamDZL' }
     ],
 
-    markdown: {
-      image: {
-        // 开启图片懒加载
-        lazyLoading: true
-      },
-    },
-
+    
     footer: {
       copyright: "Copyright © 2025-present DreamZL"
     }
