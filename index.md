@@ -11,11 +11,11 @@ hero:
     alt: 背景图片
   actions:
     - theme: brand
-      text: Search For It
-      link: https://www.baidu.com
+      text: ☁️ Alist 云盘
+      link: http://60.204.231.246:5244/
     - theme: alt
-      text: API Examples
-      link: /test
+      text: 🏫 HZCU 黄页
+      link: /files
 
 
 features:
