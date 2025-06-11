@@ -23,14 +23,17 @@ features:
     title: Services
     details: 青衿之志，臻于至善
     link: /markdown-examples.md
+    linkText: 淬炼
   - icon: 🎊
     title: Studies
     details: 心藏须弥，博观约取
+    link: /Studies.md
+    linkText: 求知
   - icon: 🛰
     title: Develops
     details: 景行行止，功不唐捐
-    link: https://chat.openai.com/chat
-    linkText: ChatGpt
+    link: /develop.md
+    linkText: 探索
   - icon: 🐎
     title: CZH'Favor
     details: 哈基米那美路多
