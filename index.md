@@ -27,7 +27,7 @@ features:
   - icon: 🎊
     title: Studies
     details: 心藏须弥，博观约取
-    link: /Studies.md
+    link: /studies.md
     linkText: 求知
   - icon: 🛰
     title: Develops
